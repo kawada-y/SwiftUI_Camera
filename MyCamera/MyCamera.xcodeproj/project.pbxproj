@@ -11,6 +11,9 @@
 		5A8267022B995CC400FCEAE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8267012B995CC400FCEAE8 /* ContentView.swift */; };
 		5A8267042B995CC500FCEAE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A8267032B995CC500FCEAE8 /* Assets.xcassets */; };
 		5A8267072B995CC500FCEAE8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A8267062B995CC500FCEAE8 /* Preview Assets.xcassets */; };
+		5A82670E2B99603800FCEAE8 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A82670D2B99603800FCEAE8 /* ImagePickerView.swift */; };
+		5A8267102B998E3C00FCEAE8 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A82670F2B998E3C00FCEAE8 /* ActivityView.swift */; };
+		5A8267122B999CC300FCEAE8 /* PHPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8267112B999CC300FCEAE8 /* PHPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		5A8267012B995CC400FCEAE8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5A8267032B995CC500FCEAE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A8267062B995CC500FCEAE8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5A82670D2B99603800FCEAE8 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		5A82670F2B998E3C00FCEAE8 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		5A8267112B999CC300FCEAE8 /* PHPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				5A8266FF2B995CC400FCEAE8 /* MyCameraApp.swift */,
 				5A8267012B995CC400FCEAE8 /* ContentView.swift */,
+				5A82670F2B998E3C00FCEAE8 /* ActivityView.swift */,
+				5A8267112B999CC300FCEAE8 /* PHPickerView.swift */,
+				5A82670D2B99603800FCEAE8 /* ImagePickerView.swift */,
 				5A8267032B995CC500FCEAE8 /* Assets.xcassets */,
 				5A8267052B995CC500FCEAE8 /* Preview Content */,
 			);
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A8267122B999CC300FCEAE8 /* PHPickerView.swift in Sources */,
 				5A8267022B995CC400FCEAE8 /* ContentView.swift in Sources */,
+				5A8267102B998E3C00FCEAE8 /* ActivityView.swift in Sources */,
+				5A82670E2B99603800FCEAE8 /* ImagePickerView.swift in Sources */,
 				5A8267002B995CC400FCEAE8 /* MyCameraApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,13 +284,17 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MyCamera/Preview Content\"";
+				DEVELOPMENT_TEAM = ZD3T6BC63N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "写真を撮影するためにカメラを利用します。";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "撮影した写真の保存に利用します。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,13 +316,17 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MyCamera/Preview Content\"";
+				DEVELOPMENT_TEAM = ZD3T6BC63N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "写真を撮影するためにカメラを利用します。";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "撮影した写真の保存に利用します。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
