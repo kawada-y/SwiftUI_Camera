@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A77887D2B9A905700815B74 /* EffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A77887C2B9A905700815B74 /* EffectView.swift */; };
 		5A8267002B995CC400FCEAE8 /* MyCameraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8266FF2B995CC400FCEAE8 /* MyCameraApp.swift */; };
 		5A8267022B995CC400FCEAE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8267012B995CC400FCEAE8 /* ContentView.swift */; };
 		5A8267042B995CC500FCEAE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A8267032B995CC500FCEAE8 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A77887C2B9A905700815B74 /* EffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectView.swift; sourceTree = "<group>"; };
 		5A8266FC2B995CC400FCEAE8 /* MyCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A8266FF2B995CC400FCEAE8 /* MyCameraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCameraApp.swift; sourceTree = "<group>"; };
 		5A8267012B995CC400FCEAE8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				5A82670F2B998E3C00FCEAE8 /* ActivityView.swift */,
 				5A8267112B999CC300FCEAE8 /* PHPickerView.swift */,
 				5A82670D2B99603800FCEAE8 /* ImagePickerView.swift */,
+				5A77887C2B9A905700815B74 /* EffectView.swift */,
 				5A8267032B995CC500FCEAE8 /* Assets.xcassets */,
 				5A8267052B995CC500FCEAE8 /* Preview Content */,
 			);
@@ -149,6 +152,7 @@
 				5A8267122B999CC300FCEAE8 /* PHPickerView.swift in Sources */,
 				5A8267022B995CC400FCEAE8 /* ContentView.swift in Sources */,
 				5A8267102B998E3C00FCEAE8 /* ActivityView.swift in Sources */,
+				5A77887D2B9A905700815B74 /* EffectView.swift in Sources */,
 				5A82670E2B99603800FCEAE8 /* ImagePickerView.swift in Sources */,
 				5A8267002B995CC400FCEAE8 /* MyCameraApp.swift in Sources */,
 			);
